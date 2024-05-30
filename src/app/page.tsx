@@ -1,10 +1,11 @@
 import Image from "next/image";
+import Navbar from ".//components/navbar"
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-16 dark:bg-background-800">
       <div className="z-10 w-full max-w-5xl items-center justify-between text-sm lg:flex">
-        {/* menu goes here */}
+        {Navbar()}
         <div className="">
           <h2 className="font-semibold text-5xl">Hello, I'm Duskire</h2>
           <p className="">
